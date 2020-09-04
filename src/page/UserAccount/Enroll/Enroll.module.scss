@@ -1,0 +1,18 @@
+.enroll-box{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  .enroll-head-box{
+    margin-top: 40px;
+    font-size: 26px;
+  }
+  .enroll-content-box{
+    margin-top: 30px;
+    .enroll-content-item{
+      margin-bottom: 8px;
+    }
+  }
+  .enrollBtn{
+    margin-top: 30px;
+  }
+}

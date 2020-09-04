@@ -1,0 +1,373 @@
+.home-box{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  .card-box{
+    margin: auto;
+    height:100;
+    width: 80%;
+  }
+  .home-head-box{
+    margin: auto;
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    // background-repeat:no-repeat;
+    // background-size: 100% 100%;
+    // background-image: url(../../static/timg.jpg);
+   
+  }
+  .search-input-box{
+    display: flex;
+    margin-right: 100px;
+    margin-top: 20px;
+  }
+  .home-foot-box{
+    margin-top: 20px;
+    overflow: auto;
+    height: 1000px;
+    // width: 260px;
+     background-color:#F0F0F0;
+    
+  }
+  .home-foot-box::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: none;
+    }
+  .top-box{
+    background-image: url(../../static/store_banner.jpg);
+    margin: auto;
+    margin-top: 5px;
+    width: 98%;
+    height: 280px;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    .textb{
+      position: relative;
+      z-index: 0;
+      width: 100%;
+      padding: 11.5% 0 12%;
+      .text {
+        font-size: 30px;
+        line-height: 36px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        text-align: center;
+        text-shadow: 0 2px 2px rgba(0,0,0,.2);
+      }
+    }
+   
+    
+  }
+}
+.HospitalDetail{
+  text-align: center;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: auto;
+  .top-box{
+    background-image: url(../../static/store_banner.jpg);
+    margin: auto;
+    margin-top: 5px;
+    width: 98%;
+    height: 300px;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    .textb{
+      position: relative;
+      z-index: 0;
+      width: 100%;
+      padding: 11.5% 0 12%;
+      .text {
+        font-size: 30px;
+        line-height: 36px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        text-align: center;
+        text-shadow: 0 2px 2px rgba(0,0,0,.2);
+      }
+    }
+  }
+  .middle-box{
+    // overflow: auto;
+    // height: 700px;
+    height:auto ;
+    display: flex;
+    margin-top: 20px;
+    .left{
+      width:45%;
+      height: auto;
+      margin-right: 5%;
+      margin-left: 5%;
+      p{
+        text-align: left;
+        font-size: 20px;
+        line-height: 20px;
+       
+      }
+     
+     .des {
+       text-align: justify;
+        margin-top: 30px;
+        line-height: 30px;
+        color: #999999;
+        padding-bottom: 50px;
+        border-bottom: 1px dashed #e5e5e5;
+     }
+     .hospitals-detail-timetable {
+      margin: 0px 0px 10px 10px;
+      font-size: 20px;
+      thead {
+        display: table-header-group;
+        vertical-align: middle;
+        border-color: inherit;
+        tr {
+          display: table-row;
+          vertical-align: inherit;
+          border-color: inherit;
+          th {
+            background-color: #f3ede3;
+            border: 1px solid #e2d3bb;
+            padding: 3px;
+            min-width: 70px;
+            text-align: cente;
+            color: #b1873a;
+            font-weight: normal;
+          }
+        }
+      }
+      tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: inherit;
+        tr {
+          display: table-row;
+          vertical-align: inherit;
+          border-color: inherit;
+           td {
+            border-top: 1px #ccc dotted;
+            padding: 10px 5px;
+            border: 1px solid #e2d3bb;
+         }
+        }
+      }
+      }
+    }
+    .right{
+      width: 45%;
+      height: auto;
+      text-align: right;
+      .button-box{
+        position: relative;
+        margin-top: 50px;
+        margin-right: 50px;
+      }
+      .floating-button{
+        color: #fff;
+        position: fixed;
+        right: 16px;
+        bottom: 88px;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        z-index: 9999;
+        overflow: hidden;
+        -webkit-transition-duration: 300ms;
+        transition-duration: 300ms;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        background-color: #2196f3;
+        }
+        .backHome{
+            color: #fff;
+            position: fixed;
+            right: 16px;
+            bottom:200px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            z-index: 9999;
+            overflow: hidden;
+            -webkit-transition-duration: 300ms;
+            transition-duration: 300ms;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            background-color: #2196f3;
+            
+        }
+      .des_ph{
+        display: 'flex';
+        flex-wrap: 'wrap';
+        height: 200px;
+        justify-content: 'space-around';
+        overflow: 'hidden';
+        .list{
+          width: 500;
+          height: 450;
+        }
+      }
+    }
+  }
+  .middle-box::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: none;
+    }
+
+  .buttom-box{
+    margin-top: 5%;
+    background-color: green($color: #000000);
+    text-align: center;
+    .title-box{
+      margin: auto;
+      width: 85%;
+      text-align: left;
+      font-size:25px;
+      padding: 0 0 0 50px;
+      background-image: url(../../static/backg.png);
+      background-position: 20px 0px;
+    }
+    #animallists {
+      width: 100%;
+      margin: 10px 0px;
+    }
+    #animallists a {
+      display: block;
+      margin: auto;
+      width: 90px;
+      padding-top: 48px;
+      background-image: url(../../static/animallists.png);
+      background-repeat: no-repeat;
+    }
+    .column3 {
+      width: 100%;
+      .tr{
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+      }
+    }
+    .introduce{
+      display: flex;
+      .image-box{
+        margin: 20px 10px 0 75px;
+        width: 200px;
+      }
+      .right{
+        width: 80%;
+        .content{
+          text-align: left;  
+          width: 80%;
+          margin:auto;
+          height: auto;
+        }
+        .buttom-box{
+          font-size: 25px;
+          margin: 20px 0 0 110px;
+          // margin-top: auto;
+          display: flex;
+        }
+      }
+    }
+    .showMore{
+      margin: auto;
+      // width: 15%;
+      // border: solid 1px;
+      border-radius: 2rem;
+      font-size: 25px;
+      margin-top: 50px;
+      color: #303F9F;
+      margin-bottom: 10px;
+    }
+    .order-box{
+      margin: auto;
+      width: 80%;
+      border-radius: 2rem;
+      // border: solid 0.5px;
+      .secondLine{
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 10%;
+        display: flex;
+      }
+      .thirdLine{
+        margin-top: 5%;
+        width: 80%;
+        // border-radius: 2rem;
+        // border: solid 1px;
+      }
+    
+    }
+    .comment{
+      margin: auto;
+      width: 80%;
+      border-radius: 1rem;
+      // border: solid 1px;
+      .head-box{
+        margin: 5% 0 5% 5%;
+        height: auto;
+        .firstLine{
+          width: 85%;
+          height: auto;
+          border-radius: 1rem;
+          border:  rgba(0,0,0,.2);
+        }
+      }
+      .body-box{
+        padding-top: 1rem;
+        background-color: #F4F5F7;
+        text-align: left;
+        display: flex ;
+        margin-bottom: 5px;
+        .left{
+          margin-left: 5%;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: solid red($color: #B9BFCA);
+          margin-right: 5%;
+        }
+        .right{
+          width: auto;
+          .firstLine{
+            display: flex;
+            width: auto;
+          }
+          .secondLine{
+            width: 60%;
+            background-color: white;
+          }
+          .thirdLine{
+            margin-top: 10px;
+            display: flex;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

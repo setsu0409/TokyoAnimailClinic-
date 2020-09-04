@@ -1,0 +1,18 @@
+.login-box{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  .login-head-box{
+    margin-top: 40px;
+    font-size: 26px;
+  }
+  .login-content-box{
+    margin-top: 60px;
+  }
+  .loginBtn{
+    margin-top: 30px;
+  }
+  .foot-btn{
+    cursor: pointer;
+  }
+}
